@@ -7,8 +7,8 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 
-import cn.frdz.logistics.server.security.jwt.User;
-import cn.frdz.logistics.server.security.jwt.UserRepository;
+import cn.frdz.logistics.server.business.entity.sys.User;
+import cn.frdz.logistics.server.business.repository.sys.UserRepository;
 import cn.frdz.logistics.server.security.util.SecurityUser;
 
 /**

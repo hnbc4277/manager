@@ -7,7 +7,8 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import cn.frdz.logistics.server.security.jwt.User;
+import cn.frdz.logistics.server.business.entity.sys.User;
+
 
 public class SecurityUser extends User implements UserDetails {
 
